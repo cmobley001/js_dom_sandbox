@@ -4,6 +4,7 @@
 // const myName = prompt("What is your name?");
 // getName(myName);
 
+//simple function to calc costs
 function calcCost(price, bottles) {
   let totalCost = price * bottles;
   console.log(`The total cost is $${totalCost}`);

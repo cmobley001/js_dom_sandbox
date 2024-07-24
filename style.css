@@ -1,45 +1,46 @@
+/* material design */
 body {
-    font-family: 'Roboto', sans-serif; /* Material Design font */
-    margin: 0;
-  }
+  font-family: "Roboto", sans-serif; /* Material Design font */
+  margin: 0;
+}
 
-  header, footer {
-    background: #5a424d; /* Material Design primary color */
-    color: white;
-    padding: 1rem;
-    text-align: center;
-  }
+header,
+footer {
+  background: #5a424d; /* Material Design primary color */
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
 
-  .container {
-    display: flex; /* Enable Flexbox */
-    padding: 1rem;
-  }
+.container {
+  display: flex; /* Enable Flexbox */
+  padding: 1rem;
+}
 
-  .card {
-    background: white;
-    border-radius: 4px; /* Material Design card style */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    padding: 1rem;
-    margin-right: 1rem; /* Spacing between columns */
-    flex: 1; /* Allow card to grow and fill space */
-  }
+.card {
+  background: white;
+  border-radius: 4px; /* Material Design card style */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-right: 1rem; /* Spacing between columns */
+  flex: 1; /* Allow card to grow and fill space */
+}
 
-  .text-content {
-    flex: 1; /* Allow text content to grow and fill space */
-  }
+.text-content {
+  flex: 1; /* Allow text content to grow and fill space */
+}
 
-  footer {
-    position: fixed;
-    bottom: 0;
-    width: 100%;
-  }
-  .button {
-    background-color: #007bff; /* Blue background */
-    color: white; /* White text for contrast */
-    padding: 10px 20px; /* Adjust padding for size */
-    border: none; /* Remove default border */
-    border-radius: 20px; /* Adjust for softness of corners */
-    cursor: pointer; /* Indicate it's clickable */
-    font-size: 16px; /* Adjust font size as needed */
-  }
-  
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+.button {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text for contrast */
+  padding: 10px 20px; /* Adjust padding for size */
+  border: none; /* Remove default border */
+  border-radius: 20px; /* Adjust for softness of corners */
+  cursor: pointer; /* Indicate it's clickable */
+  font-size: 16px; /* Adjust font size as needed */
+}
